@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test');
 
-test("Verify Application Title", async function({page}) {
+test("Verify Apple Website Title", async function({page}) {
 
     await page.goto("https://apple.com");
     
